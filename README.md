@@ -1,1 +1,1 @@
-# group4-mosquitos.github.io
+# malaria-project.github.io
