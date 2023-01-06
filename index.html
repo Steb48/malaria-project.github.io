@@ -1,13 +1,130 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Malaria Awarenss Project</title>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Malaria Awareness</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
 </head>
-<body>
-    <h1>Beware of Mosquitoes!</h1>
-    <p>Malaria is a serious issue I swear</p>
+<body id="body">
+	<!-- start nav -->
+	<nav class="navbar navbar-expand-lg" id="nav">
+		<div class="container-fluid" id="navigation">
+			<h1><a class="navbar-brand" hred="#">Malaria</a></h1>
+			<button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarContent" aria-controls="navbarContent" aria-expanded="false" aria-label="Toggle navigation">
+				<span class="navbar-toggler-icon"></span>
+			</button>
+		</div>
+		<div class="collapse navbar-collapse" id="navbarContent">
+			<ul class="navbar-nav mb-2 me-3 mb-lg-0">
+				<li class="nav-item">
+					<a class="nav-link" href="#body">Home</a>
+				</li>
+
+				<li class="nav-item">
+					<a class="nav-link" href="#about_me_div">About</a>
+				</li>
+
+				<li class="nav-item">
+					<a class="nav-link" href="#services_div">Prevention</a>
+				</li>
+
+				<li class="nav-item">
+					<a class="nav-link" href="#footer">Contact</a>
+				</li>
+			</ul>
+		</div>
+	</nav>
+	<!-- end nav -->
+
+	<!-- start banner -->
+	<div class="banner_div">
+		<img id="malaria_banner" alt="banner for malaria" src="img/2022425205641484_World-Malaria-Day-Website-700-x-400px.jpg">
+	</div>
+
+	<!-- end banner -->
+
+	<!-- start info -->
+	<div class="info_div d-flex" id="services_div">
+		<div class="fact">
+			<h2>Transmission</h2>
+			<p>
+				Malaria is usually transmitted by a certain type of mosquito called the Anopheles mosquitoe. The disease can only be transmitted by female mosquitos, as they are the only ones that requires blood. The mosquitos are actually first infected by taking the blood of another infected person. The blood contains the malaria parasites and it infects the mosquito.
+			</p>
+		</div>
+
+		<div class="fact">		
+			<h2>Symptoms</h2>
+			<p>
+				Symptoms from Malaria often are a Fever, Chills, Discomfort, Headaches, Nausea, Vomitting, Diarrhea, Muscle or join pain, and sweating. If severe enough, things such as kidney failure, seizures, coma, and even death.
+			</p>
+		</div>
+
+		<div class="fact">		
+			<h2>Deaths caused by Malaria</h2>
+			<p>
+				The statistics from 2021 shows that there were approximately 247 million cases of malaria around the world. Comparing this to the 245 million cases in 2020, the increase is not good news. The number of deaths caused by malaria was about 619,000 in 2021.
+			</p>
+		</div>
+	</div>
+	<!-- end info -->
+
+	<!-- start prevention -->
+	<div class="prevention_div">
+		<h1 style="color: white;">Prevention Methods</h1>
+		<div class="prevention d-flex">
+			<div class="prevention_info">
+				<img src="img/vac (2).png" height="350px" width="500px">
+
+			    <h2>Antimalarial medication</h2>
+			    <p>
+				    You can just take antimalarial medication to kill all the parasites and prevent yourself by being infected,
+			    </p>
+		    </div>
+
+		    <div class="prevention_info">
+			    <img src="img/chomp.png" height="350px" width="500px">
+
+			    <h2>Prevent mosquito bites</h2>
+			    <p>
+				    You can prevent mosquito bites by staying indoors during their active hours (usually around dusk and dawn). Also wear long sleeve shirts and long pants when going outside.
+			    </p>
+		    </div>
+
+		    <div class="prevention_info">
+			    <img src="img/vac.png" height="350px" width="500px">
+
+			    <h2>Vaccine</h2>
+			    <p>
+				    You can always just take a vaccine for malaria. There's a malaria vaccine called the RTS,S/AS01 that's widely used for children living in sub-Saharan Africa.
+			    </p>
+		    </div>
+		</div>
+
+		
+		</div>
+	</div>
+	<!-- end prevention -->
+	
+	<!-- start footer -->
+	<div class="footer">
+		<div class="footer-s">
+			<h2>Contact Us</h2>
+			<p>
+				We are always open for volunteers to help rid of Malaria off this earth. Contact us at <b>www.malariaproject@gmail.com</b>.
+			</p>
+		</div>
+		
+		<div class="footer-s">
+			<h2>Summary</h2>
+			<p>
+				Our website is a place where people learn about the dangers of Malaria. We are trying to spread awareness of the disease and are actively warning people to be careful. We provide information of how you get infected, the symptoms, prevention measures against the disease and our contact info incase you require anymore info.
+			</p>
+		</div>
+	</div>
+	<!-- end footer -->
+
+	<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3" crossorigin="anonymous"></script>
 </body>
 </html>
